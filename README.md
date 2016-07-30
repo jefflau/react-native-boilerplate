@@ -1,4 +1,4 @@
-# react-native-boilerplate
+# React Native Boilerplate
 React Native Boilerplate with all the basics.
 
 * Redux
