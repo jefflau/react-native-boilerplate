@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import ViewContainer from '../components/viewContainer';
 
-const Main = ({address}) => (
+const Main = () => (
   <ViewContainer>
     <View style={styles.container}>
       <Text style={styles.welcome}>
