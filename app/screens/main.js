@@ -6,22 +6,27 @@ import {
 } from 'react-native';
 import ViewContainer from '../components/viewContainer';
 
-const Main = () => (
-  <ViewContainer>
-    <View style={styles.container}>
-      <Text style={styles.welcome}>
+class Main extend React.component {
+  render(){
+    return (
+      <ViewContainer>
+        <View style={styles.container}>
+        <Text style={styles.welcome}>
         Welcome to React Native/Redux Boilerplate!
-      </Text>
-      <Text style={styles.instructions}>
+        </Text>
+        <Text style={styles.instructions}>
         To get started, edit index.ios.js
-      </Text>
-      <Text style={styles.instructions}>
+        </Text>
+        <Text style={styles.instructions}>
         Press Cmd+R to reload,{'\n'}
         Cmd+D or shake for dev menu
-      </Text>
-    </View>
-  </ViewContainer>
-)
+        </Text>
+        </View>
+      </ViewContainer>
+    )
+  }
+}
+
 
 const styles = StyleSheet.create({
   container: {

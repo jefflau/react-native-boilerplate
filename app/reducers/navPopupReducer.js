@@ -1,7 +1,7 @@
 const reducer = (state = "", action = {}) => {
   switch(action.type){
-    case "TOGGLE_CITY_SELECT":
-      if(state === "TOGGLE_CITY_SELECT"){
+    case "TOGGLE_NAV_POPUP":
+      if(state === "TOGGLE_NAV_POPUP"){
         return "";
       }
       return action.type;
